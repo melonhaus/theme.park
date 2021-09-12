@@ -3,6 +3,9 @@
 /* --body-after: #00ff7733; /* This is the background that creates the crt lines, background uses a transparency of 20% SET TO NONE TO REMOVE CRT EFFECT */
 /* --body-animation: flicker; This is the background that flickers. SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
 /* --custom-text-header-animation: textflicker; /* SET TO NONE TO REMOVE THE FLICKER ANIMATION! */
+/* --to disable background flicker set 'body-animation' to 'none'
+/* --to disable crt lines set 'body-before' and 'body-after' to 'none'
+/* --instructions - https://technicalramblings.com/blog/how-to-add-a-custom-login-page-for-unraid/
 
 @import url(https://theme-park.dev/CSS/addons/unraid/login-page/retro-terminal/retro-terminal-base.css);
 :root {
@@ -11,23 +14,23 @@
 --body-after: #70d7f633;
 --body-animation: flicker;
 --logo: url(https://i.imgur.com/8ymM9QB.png) center no-repeat;
---text-color: #ffffff;
---input-color: #ffffff;
---link-color: #ffffff;
+--text-color: #45c4a1;
+--input-color: #45c4a1;
+--link-color: #45c4a1;
 --link-color-hover: #8f2809;
---case-color: #ffffff;
---button-text-color: #ffffff;
+--case-color: #45c4a1;
+--button-text-color: #45c4a1;
 --button-text-color-hover: #000;
---button-color: #ffffff;
+--button-color: #45c4a1;
 --button-color-hover: #af0606;
 --selection-color: #8f2809;
---custom-text-header:#ffffff;
---custom-text-header-shadow:#ffffff;
+--custom-text-header:#45c4a1;
+--custom-text-header-shadow:#45c4a1;
 --custom-text-header-animation: textflicker;
 --input-font: 'Share Tech Mono', monospace;
 --text-font: 'Share Tech Mono', monospace;
 --loginbox-background-color: transparent;
 --text-shadow: 0 0 8px;
---text-shadow-color: #ffffff;
+--text-shadow-color: #45c4a1;
 --box-shadow: 0 0 15px;
 }
